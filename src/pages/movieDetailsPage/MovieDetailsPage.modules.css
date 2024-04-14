@@ -1,0 +1,77 @@
+.container {
+  padding: 20px;
+}
+
+.btn-back {
+  color: black;
+  background-color: #92e3a9;
+  outline: 2px solid rgb(159, 88, 226);
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, outline 0.3s ease;
+}
+
+.btn-back:hover {
+  outline: 2px solid #92e3a9;
+  background-color: rgb(159, 88, 226);
+}
+
+.container-info {
+  display: flex;
+  gap: 10px;
+}
+
+.img-movie {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.container-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.overwiew-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-title,
+.rating-title,
+.release-title {
+  font-weight: 700;
+}
+
+.btn-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-links-item {
+  color: black;
+  background-color: #92e3a9;
+  outline: 2px solid rgb(159, 88, 226);
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  max-width: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, outline 0.3s ease;
+}
+
+.btn-links-item:hover {
+  outline: 2px solid #92e3a9;
+  background-color: rgb(159, 88, 226);
+}

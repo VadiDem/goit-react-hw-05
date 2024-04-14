@@ -1,0 +1,39 @@
+.reviews-title {
+  margin-bottom: 20px;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-comment {
+  border: 2px solid #92e3a9;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: left;
+  align-items: start;
+}
+
+.author {
+  text-decoration: underline;
+  text-decoration-color: #92e3a9;
+  text-decoration-thickness: 2px;
+}
+
+.no-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.img-rew {
+  width: 300px;
+}

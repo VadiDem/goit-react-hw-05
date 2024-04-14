@@ -1,0 +1,14 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+}
+
+.movie-link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+  color: black;
+}

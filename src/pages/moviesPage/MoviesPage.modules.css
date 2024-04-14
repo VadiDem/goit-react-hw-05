@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  border: 2px solid rgb(159, 88, 226);
+  border-radius: 5px;
+  padding: 5px;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border: 2px solid #92e3a9;
+  outline: none;
+}
+
+.btn-submit {
+  cursor: pointer;
+  color: black;
+  background-color: #92e3a9;
+  border: 2px solid rgb(159, 88, 226);
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  max-width: 70px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  border-color: #92e3a9;
+  background-color: rgb(159, 88, 226);
+}

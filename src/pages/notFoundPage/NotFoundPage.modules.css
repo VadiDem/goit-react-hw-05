@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: block;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.not-found-text {
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px; /* Ширина обводки */
+  -webkit-text-stroke-color: #92e3a9; /* Колір обводки */
+  margin-top: 20px;
+  font-size: 30px;
+}
